@@ -55,6 +55,7 @@ const BlogNew = () => {
           name="content"
           value={blogForm.content}
           placeholder="Blog's Content"
+          rows={5}
           onChange={(e) =>
             setBlogForm({ ...blogForm, content: e.target.value })
           }
